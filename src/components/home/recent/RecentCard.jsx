@@ -12,7 +12,7 @@ const RecentCard = () => {
     <>
       <div className='content grid3 mtop'>
         {list.map((val, index) => {
-          const { cover, images, location, name, price, type } = val
+          const { images, location, name, price, type } = val
           return (
             <div className='box shadow' key={index}>
               <div style={containerStyles}>
