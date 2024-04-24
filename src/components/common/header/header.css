@@ -1,26 +1,29 @@
 header {
-  background-color: #fff;
-  height: 15vh;
-  box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
-  padding: 1vh 0;
   position: sticky;
   top: 0;
   z-index: 99999;
   background-color: #f7f9fc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
 }
-header img {
-  width: 100px;
+
+.logo-wrapper {
+  width: 150px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    object-fit: contain;
+  }
 }
-header a {
-  margin-left:50px;
-  transition: 0.5s;
-  font-weight: 600;
-  size:500px; 
-}
-header a:hover {
-  color: #000000;
-  color:white;
-}
+
 header span {
   width: auto;
   padding: 0px 6px;
@@ -63,14 +66,12 @@ header .toggle {
     margin-bottom: 20px;
     color: #d4d4d6;
   }
-  
 }
 
 .button-menu {
   display: flex;
   justify-content: space-between;
 }
-
 
 .btn1 {
   width: 1vw;
@@ -96,4 +97,18 @@ header .toggle {
 
 button {
   background: #323299;
+}
+
+.icons-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 50px;
+  }
 }
