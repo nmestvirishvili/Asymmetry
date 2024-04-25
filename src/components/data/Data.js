@@ -13,13 +13,13 @@ export const nav = [
   },
   {
     text: "პროექტები",
-    path: "/blog",
+    path: "/projects",
   },
   {
     text: "კონტაქტი",
     path: "/contact",
   },
-]
+];
 export const featured = [
   {
     cover: "../images/hero/h1.png",
@@ -71,14 +71,14 @@ export const featured = [
     name: "გეოდეზია",
     total: "",
   },
-]
+];
 export const list = [
   {
     id: 1,
     images: [
       "../images/houses/h-1/1.png",
       "../images/houses/h-1/2.png",
-      "../images/houses/h-1/3.png"
+      "../images/houses/h-1/3.png",
     ],
     name: "სადეგუსტაციო სივრდე და მარანი",
     location: "თბილისი, ს.დიღომი",
@@ -89,7 +89,7 @@ export const list = [
     images: [
       "../images/houses/h-2/1.png",
       "../images/houses/h-2/2.png",
-      "../images/houses/h-2/3.png"
+      "../images/houses/h-2/3.png",
     ],
     name: "საოჯახო სასტუმრო",
     location: "ქ. ბორჯომი",
@@ -109,20 +109,14 @@ export const list = [
   },
   {
     id: 4,
-    images: [
-      "../images/houses/h-4/1.png",
-      "../images/houses/h-4/2.png",
-    ],
+    images: ["../images/houses/h-4/1.png", "../images/houses/h-4/2.png"],
     name: "ინდივიდუალური ერთბინიანი საცხოვრებელი სახლი",
     location: "მცხეთის მუნიციპალიტეტი, ს. ნავდარაანთკარი",
     price: "255 მ²",
   },
   {
     id: 5,
-    images: [
-      "../images/houses/h-5/1.png",
-      "../images/houses/h-5/2.png",
-    ],
+    images: ["../images/houses/h-5/1.png", "../images/houses/h-5/2.png"],
     name: "აგარაკი",
     location: "თიანეთის მუნიციპალიტეტი, დაბა სიონი",
     price: "98 მ²",
@@ -185,10 +179,7 @@ export const list = [
   },
   {
     id: 11,
-    images: [
-      "../images/houses/h-11/1.png",
-      "../images/houses/h-11/2.png",
-    ],
+    images: ["../images/houses/h-11/1.png", "../images/houses/h-11/2.png"],
     name: "ხის ინდივიდუალური ერთბინიანი საცხოვრებელი სახლი",
     location: "მცხეთის მინიციპალიტეტი, ს. მისაქციელი",
     price: "123 მ²",
@@ -241,57 +232,128 @@ export const list = [
     location: "ქ.თბილისი, ფალიაშვილის ქ.59",
     price: "68 მ²",
   },
-]
+];
 export const team = [
   {
     cover: "../images/customer/team-1.jpg",
     address: "ლაშა კირვალიძე",
     name: "დამფუძნებელი/მთ. არქიტექტორი",
-    icon: [<a href="https://www.facebook.com/profile.php?id=100092504264433"><i class="fa-brands fa-facebook-f"></i></a> , <a href="https://www.tiktok.com/@asymmetry.architecture"><i class="fab fa-tiktok"></i></a>,<a href="https://www.instagram.com/studio.asymmetry/"><i class="fa-brands fa-instagram"></i></a> ],
+    icon: [
+      <a href="https://www.facebook.com/profile.php?id=100092504264433">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>,
+      <a href="https://www.tiktok.com/@asymmetry.architecture">
+        <i class="fab fa-tiktok"></i>
+      </a>,
+      <a href="https://www.instagram.com/studio.asymmetry/">
+        <i class="fa-brands fa-instagram"></i>
+      </a>,
+    ],
   },
   {
     cover: "../images/customer/team-2.jpg",
     address: "გოგიტა მეგრელიშვილი",
     name: "არქიტექტორი/41 სპეციალისტი",
-    icon: [<a href="https://www.facebook.com/profile.php?id=100092504264433"><i class="fa-brands fa-facebook-f"></i></a>, <a href="https://www.tiktok.com/@asymmetry.architecture"><i class="fab fa-tiktok"></i></a>,<a href="https://www.instagram.com/studio.asymmetry/"><i class="fa-brands fa-instagram"></i></a> ],
+    icon: [
+      <a href="https://www.facebook.com/profile.php?id=100092504264433">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>,
+      <a href="https://www.tiktok.com/@asymmetry.architecture">
+        <i class="fab fa-tiktok"></i>
+      </a>,
+      <a href="https://www.instagram.com/studio.asymmetry/">
+        <i class="fa-brands fa-instagram"></i>
+      </a>,
+    ],
   },
   {
     cover: "../images/customer/team-3.jpg",
     address: "კახა შონია",
     name: "არქიტექტორი/ენერგოეფექტურობა",
-    icon: [<a href="https://www.facebook.com/profile.php?id=100092504264433"><i class="fa-brands fa-facebook-f"></i></a>, <a href="https://www.tiktok.com/@asymmetry.architecture"><i class="fab fa-tiktok"></i></a>,<a href="https://www.instagram.com/studio.asymmetry/"><i class="fa-brands fa-instagram"></i></a> ],
+    icon: [
+      <a href="https://www.facebook.com/profile.php?id=100092504264433">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>,
+      <a href="https://www.tiktok.com/@asymmetry.architecture">
+        <i class="fab fa-tiktok"></i>
+      </a>,
+      <a href="https://www.instagram.com/studio.asymmetry/">
+        <i class="fa-brands fa-instagram"></i>
+      </a>,
+    ],
   },
   {
     cover: "../images/customer/team-4.jpg",
     address: "ანა დიასამიძე",
     name: "არქიტექტორი",
-    icon: [<a href="https://www.facebook.com/profile.php?id=100092504264433"><i class="fa-brands fa-facebook-f"></i></a>, <a href="https://www.tiktok.com/@asymmetry.architecture"><i class="fab fa-tiktok"></i></a>,<a href="https://www.instagram.com/studio.asymmetry/"><i class="fa-brands fa-instagram"></i></a> ],
+    icon: [
+      <a href="https://www.facebook.com/profile.php?id=100092504264433">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>,
+      <a href="https://www.tiktok.com/@asymmetry.architecture">
+        <i class="fab fa-tiktok"></i>
+      </a>,
+      <a href="https://www.instagram.com/studio.asymmetry/">
+        <i class="fa-brands fa-instagram"></i>
+      </a>,
+    ],
   },
   {
     cover: "../images/customer/team-5.jpg",
     address: "ნუგზარ კევლიშვილი",
     name: "კონსტრუქტორი",
-    icon: [<a href="https://www.facebook.com/profile.php?id=100092504264433"><i class="fa-brands fa-facebook-f"></i></a>, <a href="https://www.tiktok.com/@asymmetry.architecture"><i class="fab fa-tiktok"></i></a>,<a href="https://www.instagram.com/studio.asymmetry/"><i class="fa-brands fa-instagram"></i></a> ],
+    icon: [
+      <a href="https://www.facebook.com/profile.php?id=100092504264433">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>,
+      <a href="https://www.tiktok.com/@asymmetry.architecture">
+        <i class="fab fa-tiktok"></i>
+      </a>,
+      <a href="https://www.instagram.com/studio.asymmetry/">
+        <i class="fa-brands fa-instagram"></i>
+      </a>,
+    ],
   },
   {
     cover: "../images/customer/team-6.jpg",
     address: "ბიჭიკო მესტვირიშვილი",
     name: "ინტერიერის დიზაინერი",
-    icon: [<a href="https://www.facebook.com/profile.php?id=100092504264433"><i class="fa-brands fa-facebook-f"></i></a>, <a href="https://www.tiktok.com/@asymmetry.architecture"><i class="fab fa-tiktok"></i></a>,<a href="https://www.instagram.com/studio.asymmetry/"><i class="fa-brands fa-instagram"></i></a> ],
+    icon: [
+      <a href="https://www.facebook.com/profile.php?id=100092504264433">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>,
+      <a href="https://www.tiktok.com/@asymmetry.architecture">
+        <i class="fab fa-tiktok"></i>
+      </a>,
+      <a href="https://www.instagram.com/studio.asymmetry/">
+        <i class="fa-brands fa-instagram"></i>
+      </a>,
+    ],
   },
-]
+];
 
 export const footer = [
   {
     title: "საკონტაქტო ინფორმაცია",
-    text: [{ list: "connectasymmetry@gmail.com" }, { list: "+995 571 14 14 69" }, { list: "WhatsApp" },{ list: "Viber" },],
+    text: [
+      { list: "connectasymmetry@gmail.com" },
+      { list: "+995 571 14 14 69" },
+      { list: "WhatsApp" },
+      { list: "Viber" },
+    ],
   },
   {
     title: "სამუშაო საათები",
-    text: [{ list: "ორშაბათი:     10:00 - 22:00" }, { list: "სამშაბათი: 10:00 - 22:00" }, { list: "ოთხშაბათი: 10:00 - 22:00" }, { list: "ხუთშაბათი: 10:00 - 22:00" }, { list: "პარასკევი: 10:00 - 22:00" }, { list: "შაბათი: 10:00 - 22:00" },{ list: "კვირა: 10:00 - 22:00" }],
+    text: [{ list: "ყოველდღე: 10:00 - 22:00" }],
   },
   {
     title: "კომპანია",
-    text: [{ list: "მთავარი" }, { list: "ჩვენ შესახებ" }, { list: "სერვისები" }, { list: "პროექტები" }, { list: "კონტაქტი" },],
+    text: [
+      { list: "მთავარი", href: "/" },
+      { list: "ჩვენ შესახებ", href: "about" },
+      { list: "სერვისები", href: "services" },
+      { list: "პროექტები", href: "projects" },
+      { list: "კონტაქტი", href: "contact" },
+    ],
   },
-]
+];
