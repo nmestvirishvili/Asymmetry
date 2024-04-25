@@ -11,6 +11,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    height: 100%;
   }
 
   h1 {
@@ -28,13 +30,9 @@
   z-index: 1000;
 }
 
-.hero .container {
-  padding-top: 15%;
-}
 .hero h1 {
   color: #ffffff;
   font-size: 40px;
-  margin-top: 50px;
 }
 .hero p {
   color: #fff;
@@ -71,6 +69,20 @@ form .box:nth-child(1) {
 form h4 {
   font-weight: 500;
 }
+#hero-text {
+  z-index: 9999;
+  width: 900px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+@media screen and (max-width: 900px) {
+  #hero-text {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 800px) {
   .hero .container {
     padding-top: 30%;
@@ -84,5 +96,25 @@ form h4 {
   }
   form input {
     width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hero h1 {
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 500px) {
+  .hero h1 {
+    font-size: 1.8em;
+  }
+}
+@media screen and (max-width: 400px) {
+  .hero h1 {
+    font-size: 1.3em;
+  }
+}
+@media screen and (max-width: 300px) {
+  .hero h1 {
+    font-size: 1em;
   }
 }

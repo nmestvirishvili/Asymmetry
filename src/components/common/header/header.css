@@ -112,3 +112,20 @@ button {
     height: 50px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .icons-wrapper {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .icons-wrapper {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .icons-wrapper {
+    gap: 10px;
+  }
+}
