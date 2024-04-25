@@ -37,12 +37,6 @@ const About = () => {
             <img
               src="./immio.jpg"
               alt=""
-              style={{
-                width: "400px",
-                aspectRatio: 1,
-                objectFit: "cover",
-                borderRadius: "6px",
-              }}
             />
           </div>
         </div>
