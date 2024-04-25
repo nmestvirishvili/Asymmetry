@@ -12,6 +12,12 @@
   margin-bottom: 20px;
   line-height: 30px;
 }
+.about .right img {
+  width: 400px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 6px;
+}
 @media screen and (max-width: 768px) {
   .about .container {
     flex-direction: column;
@@ -21,5 +27,10 @@
   }
   .about .container img {
     margin-top: 50px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .about .right img {
+    width: 100%;
   }
 }
