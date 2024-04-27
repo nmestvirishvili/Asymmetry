@@ -14,7 +14,7 @@ const socialIcons = [
     icon: "ri:instagram-line",
   },
   {
-    href: "https://www.tiktok.com/@asymmetry.architecture",
+    href: "https://www.tiktok.com/@studio_asymmetry",
     icon: "ri:tiktok-fill",
   },
 ];
