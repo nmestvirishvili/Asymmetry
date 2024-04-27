@@ -6,14 +6,7 @@ const Hero = () => {
     <>
       <section className="hero">
         <div className="container">
-          <div
-            style={{
-              position: "relative",
-              zIndex: 9999,
-              width: "900px",
-              textAlign: "center",
-            }}
-          >
+          <div id="hero-text">
             <h1>შენი სამგანზომილებიანი მოთხოვნების დასაკმაყოფილებლად</h1>
           </div>
         </div>
