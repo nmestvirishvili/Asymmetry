@@ -350,10 +350,10 @@ export const footer = [
     title: "კომპანია",
     text: [
       { list: "მთავარი", href: "/" },
-      { list: "ჩვენ შესახებ", href: "about" },
-      { list: "სერვისები", href: "services" },
-      { list: "პროექტები", href: "projects" },
-      { list: "კონტაქტი", href: "contact" },
+      { list: "ჩვენ შესახებ", href: "/about" },
+      { list: "სერვისები", href: "/services" },
+      { list: "პროექტები", href: "/projects" },
+      { list: "კონტაქტი", href: "/contact" },
     ],
   },
 ];
