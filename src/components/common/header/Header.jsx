@@ -32,9 +32,9 @@ const Header = () => {
         />
       </Link>
       <div className="nav" id="main-nav-horizontal">
-        <ul className={navList ? "small" : "flex"} id="mobile-menu">
+        <ul className={navList ? "small" : "flex"}>
           {nav.map((list, index) => (
-            <li key={index}>
+            <li key={index} onClick={() => setNavList(false)}>
               <Link to={list.path}>{list.text}</Link>
             </li>
           ))}
