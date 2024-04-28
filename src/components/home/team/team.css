@@ -88,3 +88,7 @@
     border-radius: 50%;
   }
 }
+
+.team-wrapper h4 {
+  text-align: center;
+}
