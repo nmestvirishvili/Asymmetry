@@ -33,9 +33,6 @@ button {
   cursor: pointer;
   font-weight: bold;
 }
-button i {
-  margin-right: 5px;
-}
 .heading {
   text-align: center;
   width: 60%;

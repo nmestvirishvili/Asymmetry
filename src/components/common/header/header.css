@@ -40,6 +40,9 @@ header h4 {
 header .toggle {
   display: none;
 }
+header .toggle button i {
+  width: 15px;
+}
 @media screen and (max-width: 768px) {
   header {
     padding: 0;
@@ -52,14 +55,19 @@ header .toggle {
   }
   header .toggle {
     display: block;
+    margin-left: 6vw;
   }
   header .small {
     position: absolute;
-    top: 10vh;
+    top: 14.4vh;
     left: 0;
     width: 100%;
     background-color: #000000;
     padding: 20px;
+    opacity: 0.9;
+  }
+  header .small li {
+    padding: 10px 0;
   }
   header li a {
     display: inline-block;
